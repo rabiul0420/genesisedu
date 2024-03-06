@@ -1,0 +1,36 @@
+<div class="flex items-center gap-3">
+    <div class="shrink grow flex justify-start items-center gap-2">
+        <div class="shrink-0 grow-0 text-indigo-600 bg-indigo-200/50 px-2 py-1 rounded">
+            ID: {{ $quiz->id }}
+        </div>
+    </div>
+    <div class="shrink-0 grow-0 flex justify-start items-center gap-2">
+        <div class="text-sky-600 bg-sky-200/50 px-1.5 py-1 rounded flex justify-center items-center gap-1">
+            <span>Mark: {{ $quiz->quiz_property->full_mark ?? "" }}</span>
+        </div>
+        <div class="text-green-600 bg-green-200/50 px-1.5 py-1 rounded flex justify-center items-center gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>{{ $quiz->quiz_property->duration ?? '' }} min</span>
+        </div>
+    </div>
+</div>
+<div class="flex items-center gap-2 py-2">
+    <div class="shrink-0 grow-0 text-gray-500 text-sm">Quiz:</div>
+    <div class="shrink grow font-semibold text-base text-sky-600 text-left">{{ $quiz->title ?? '' }}</div>
+</div>
+<div class="flex flex-wrap items-center gap-2">
+    <span class="shrink-0 grow-0 py-1 px-4 bg-yellow-600/20 text-yellow-600 rounded text-left text-sm">
+        Status: {!! \App\Quiz::STATUS_ARRAY[$quiz->status] ?? '' !!}
+    </span>
+    <div class="shrink-0 grow-0 font-semibold text-sm text-left py-1 px-2 rounded {{ $quiz->quiz_property->total_question == $quiz->quiz_questions->count() ? 'bg-green-700/20 text-green-700' : 'bg-rose-600/20 text-rose-600' }}">
+        Question: {{ $quiz->quiz_questions->count() ?? 0 }} / {{ $quiz->quiz_property->total_question ?? 0 }}
+    </div>
+</div>
+<div class="flex flex-wrap items-center justify-start font-semibold text-base text-gray-600 gap-2">
+    <div class="py-1 px-4 bg-gray-600/20 text-gray-600 rounded text-left flex gap-2">
+        <span>{{ $quiz->quiz_property->title ?? '' }}</span>
+        <span>({{ $quiz->quiz_property->course->name ?? '' }})</span>
+    </div>
+</div>
