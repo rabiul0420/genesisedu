@@ -1,0 +1,88 @@
+img{
+    max-width: 100%;
+}
+
+.sidebar {
+    margin: 0;
+    margin-top:20px;
+    padding: 0;
+    width: 100%;
+    background-color: #F4DCDF;
+    /*background-color: #f1f1f1;*/
+    /*position: fixed;*/
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border-bottom: 1px #fff solid;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    /*background-color: #555;*/
+    background-color: #FFEAEA;
+    color: Black;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.menu { 
+	background-color:Pink;
+	color:Black;
+	border-right:1px #ffffff solid;
+}
+
+.menu:hover { 
+	background-color:Orange;
+}
+
+/*
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+*/
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    padding-right: 5px;
+    font-size: 21px;
+}
+.mobile-button{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.mobile-button a{
+    padding-right: 10px;
+}

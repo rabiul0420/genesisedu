@@ -1,0 +1,83 @@
+/* here you can put your own css to customize and override the theme */
+.permission-left{
+    padding-left: 35px;
+}
+.question-list{
+    margin-bottom: 10px;
+}
+.questionTitle{
+    padding-bottom: 10px;
+}
+#airlineprogram6{
+    padding: 10px 0 5px 0;
+}
+.datepicker.dropdown-menu{
+    position: fixed;
+}
+
+table.datatable > tbody > tr > td{
+    white-space: initial !important;
+}
+.modal-header.travel-header{
+    padding: 16px;
+}
+.travel-body h2{
+    font-size: 20px !important;
+    color:#000;
+}
+li [class^="fa-"], li [class^="fa-"] li, li [class*=" fa-"]{
+    width: inherit;
+}
+.generalRoutine li.questionHexagon3.qu:before {
+    content: '';
+}
+.airlineRatingbox{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.airlineRatingbox p{
+    margin-bottom: 0;
+}
+
+#id_div_doctors_gender [type="radio"]:checked, .radio-inline input[type=radio], [type="radio"]:not(:checked) {
+    position: inherit;
+}
+
+#id_div_doctor_reg_pref .input-group-addon {
+    text-align: right;
+    line-height: 100%;
+    /*display: inline-block;*/
+    width: 100%;
+    border-width: 3px 3px 3px 3px;
+    border-color: #eee;
+    border-style: solid;
+
+}
+
+
+.table_routine th, td {
+    vertical-align: middle !important;
+    text-align: center;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+.header .page-logo img {
+     margin: 0;
+}
+.select2 {
+    color: #000 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    float: none !important;
+}
+
+.sc_search .select2-container .select2-selection--single {
+    height: 33px !important;
+}
+
+.successful-img{
+          max-width:100%;
+
+
+}
+

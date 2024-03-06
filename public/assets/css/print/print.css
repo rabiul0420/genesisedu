@@ -1,0 +1,46 @@
+body, * { font-family: Arial;}
+@media print {
+
+    body{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+    }
+    
+    .print {
+        display: none;
+    }
+    tr.top5bgcolor {
+        background-color: #ddd !important;
+        -webkit-print-color-adjust: exact; 
+        color-adjust: exact;
+    }
+    
+    .pbl {
+        page-break-after: always;
+    }
+    
+}
+@media screen {
+    body{
+        margin: 0 auto;
+        padding: 0;
+        outline: 0;
+        width: 800px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

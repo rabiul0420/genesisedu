@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[55],{55:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var s=n(821),c={class:"flex h-96 items-center justify-center text-4xl"},r=[(0,s._)("h1",null,"Home",-1)];const u={};const l=(0,n(744).Z)(u,[["render",function(e,t,n,u,l,f){return(0,s.wg)(),(0,s.iD)("div",c,r)}]])}}]);

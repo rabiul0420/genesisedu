@@ -1,0 +1,1 @@
+{"name":"Demo New","institute_id":"4","course_id":"27","faculty_id":null,"subject_id":null,"batch_id":null,"is_free":"0","exam_details":null,"status":"1","exam_date":"2020-12-27","year":"2020","session_id":"1","paper":null,"teacher_id":null,"exam_type_id":"9","question_type_id":"11","sif_only":"No"}

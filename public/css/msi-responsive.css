@@ -1,0 +1,688 @@
+/* ================= Variable Start ================= */
+:root {
+    --color-1: #31c5ce;
+    --color-2: #32588b;
+    --color-3: #f75843;
+    --color-4: #008287;
+    --color-5: #0f77b7;
+    --color-6: #102083;
+    --color-7: #44ca75;
+}
+
+/* ================= Variable End ================= */
+
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ================= Menu Part Start ================= */
+
+    .main_menu .navbar-brand img {
+        margin-left: 15px;
+    }
+
+    .main_menu .navbar-brand .brand_text {
+        font-size: 47px;
+    }
+
+    .main_menu .navbar-brand h5 {
+        left: 71px;
+    }
+
+    .main_menu button.navbar-toggler {
+        border: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .main_menu button.navbar-toggler i {
+        color: #fff;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 25px;
+    }
+
+    .main_menu .navbar-nav {
+        background: var(--color-5);
+        border-top: 1px solid #ffffff80;
+        padding: 5px 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link.menu_button {
+        margin-bottom: 10px;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    /* ================= Menu Part End ================= */
+
+    /* ================= Banner Part Start ================= */
+    #log_part .form-box.mobile {
+        overflow: hidden;
+     
+    }
+
+    /* ================= Banner Part End ================= */
+
+    /* ================= Testimonial Part Start ================= */
+    #testimonial_part .header h2 {
+        font-size: 46px;
+    }
+
+    /* ================= Testimonial Part End ================= */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* ================= Menu Part Start ================= */
+
+    .main_menu .navbar-brand img {
+        margin-left: 15px;
+    }
+
+    .main_menu .navbar-brand .brand_text {
+        font-size: 47px;
+    }
+
+    .main_menu .navbar-brand h5 {
+        left: 71px;
+    }
+
+    .main_menu button.navbar-toggler {
+        border: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .main_menu button.navbar-toggler i {
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    .main_menu .navbar-nav {
+        background: var(--color-5);
+        border-top: 1px solid #ffffff80;
+        padding: 5px 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link.menu_button {
+        margin-bottom: 10px;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    /* ================= Menu Part End ================= */
+
+    /* ================= Banner Part Start ================= */
+    .banner_text h3 {
+        font-size: 32px;
+        line-height: 120px;
+    }
+
+    .banner_text a {
+        font-size: 28px;
+        line-height: 60px;
+    }
+
+    .banner_text a span {
+        font-size: 32px;
+    }
+    
+    #log_part .form-box.mobile {
+        overflow: hidden;
+        /* height: 85px; */
+        height: 450px;
+    }
+
+    /* ================= Banner Part End ================= */
+
+    /* ================= Course Part Start ================= */
+    #course_part h2 {
+        font-size: 28px;
+    }
+
+    /* ================= Course Part End ================= */
+
+    /* ================= Batch Part Start ================= */
+    #batch_part h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .batch_box tr th,
+    .batch_box tr td {
+        min-width: 180px;
+    }
+
+    /* ================= Batch Part End ================= */
+
+    /* ================= Testimonial Part Start ================= */
+
+    #testimonial_part .header h2 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+    /* ================= Testimonial Part End ================= */
+
+    /* ================= FAQ Part Start ================= */
+    #faq_part .header h2 {
+        font-size: 46px;
+    }
+
+    .faq_body .card .card-header a {
+        font-size: 18px;
+    }
+
+    .faq_body .card .card-body a {
+        font-size: 16px;
+    }
+
+    .faq_body .card .card-body ul li,
+    .faq_body .card .card-body p {
+        font-size: 16px;
+        padding: 0 5px 5px 20px;
+    }
+
+    .faq_body .card .card-body p::after {
+        left: 5px;
+        top: 10px;
+    }
+
+    /* ================= FAQ Part End ================= */
+
+
+    /* ================= Course Detail page Start ================= */
+    .course_details .main_heading {
+        line-height: 50px;
+        padding: 0px 5px;
+        display: block;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .course_details h1,
+    .course_details h2,
+    .course_details h3,
+    .course_details h4,
+    .course_details h5,
+    .course_details h6{
+        padding: 15px 0 0;
+    }
+
+    .course_details p {
+        padding: 5px;
+    }
+
+    .course_details li {
+        padding: 5px 0;
+    }
+
+    .course_details p {
+        line-height: 24px !important;
+        font-size: 16px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .course_details li {
+        line-height: 24px !important;
+        font-size: 16px !important;
+        padding-left: 15px;
+    }
+
+    .course_details li::after {
+        left: 5px;
+        top: 13px;
+    }
+
+    /* ================= Course Detail page End ================= */
+
+}
+
+@media (max-width: 575px) {
+
+    #side_bar_btn {
+        display: block;
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        background: #0F77B7;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        cursor: pointer;
+        position: fixed;
+        left: 5px;
+        top: 105px;
+        z-index: 1000;
+    }
+
+    .side_bar_menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        z-index: 99;
+        padding: 20px;
+        background: #EBEEEF;
+        height: calc(100vh - 75px);
+        overflow: auto;
+        transition: all linear 0.2s;
+        -webkit-transition: all linear 0.2s;
+        -moz-transition: all linear 0.2s;
+        -ms-transition: all linear 0.2s;
+        -o-transition: all linear 0.2s;
+    }
+
+
+    .side_bar_menu_click {
+        left: 0%;
+    }
+
+    .panel_box .header {
+        height: 50px;
+        background: #fff;
+        margin-top: -30px;
+        box-shadow: 0 -30px 0 30px #fff;
+    }
+
+
+
+    /* ================= Menu Part Start ================= */
+
+    .main_menu .navbar-brand {
+        padding-top: 5px;
+        width: calc(100% - 150px);
+    }
+
+    .main_menu .navbar-brand img {
+        transform: translateY(-3px);
+        margin-left: 15px;
+        width: 45px;
+        width: 40px;
+    }
+
+    .main_menu .navbar-brand h5 {
+        left: 65px;
+        left: 61px;
+        top: 60px;
+        top: 56px;
+        font-size: 10px;
+        font-size: 7px;
+        font-weight: 400;
+    }
+
+    .main_menu .navbar-brand .brand_text {
+        font-size: 39px;
+        font-size: 27px;
+        line-height: 80px;
+    }
+
+    .main_menu .menu_button_phone {
+        display: block;
+    }
+
+    .main_menu button.navbar-toggler {
+        border: 0;
+        margin-right: 15px;
+        padding-left: 5px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .main_menu button.navbar-toggler i {
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 25px;
+    }
+    
+    .main_menu .navbar-nav {
+        background: var(--color-5);
+        border-top: 1px solid #ffffff80;
+        padding: 5px 0;
+    }
+    
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .main_menu .navbar-nav .nav-item .nav-link.menu_button {
+        margin-bottom: 10px;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+    
+    /* .main_menu button.navbar-toggler i {
+        animation: btnMove 6s infinite;
+        -webkit-animation: btnMove 6s infinite;
+} */
+
+    /* @keyframes btnMove {
+        from {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }
+    } */
+
+    /* ================= Menu Part End ================= */
+
+    /* ================= Banner Part Start ================= */
+    #banner_part .box {
+        height: 50vw;
+    }
+
+    .banner_text h3 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 80px;
+    }
+
+    .banner_text a {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+    .banner_text a span {
+        font-size: 28px;
+    }
+    
+    #log_part .form-box.mobile {
+        overflow: hidden;
+        /* height: 85px; */
+    }
+
+    /* ================= Banner Part End ================= */
+
+    /* ================= Course Part Start ================= */
+    #course_part h2 {
+        font-size: 22px;
+        line-height: 100px;
+    }
+
+    #course_part .item h5 {
+        font-size: 16px;
+    }
+
+    #course_part .item .heading_box_height {
+        min-height: 60px;
+    }
+
+    #course_part .item p {
+        font-size: 12px;
+    }
+
+    #course_part .item p i {
+        float: right;
+        line-height: 20px;
+    }
+
+    /* ================= Course Part End ================= */
+
+    /* ================= Advertisement Part Start ================= */
+    
+    .visitor_counter p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    /* ================= Advertisement Part End ================= */
+
+    /* ================= Batch Part Start ================= */
+    #batch_part h2 {
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+    .batch_box tr th,
+    .batch_box tr td {
+        min-width: 180px;
+    }
+
+    .batch_box tr td {
+        font-weight: 500;
+    }
+
+    /* ================= batch Part End ================= */
+
+    /* ================= Testimonial Part Start ================= */
+    #testimonial_part .header h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    /* ================= Testimonial Part End ================= */
+
+    /* ================= FAQ Part Start ================= */
+    #faq_part .header h2 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .faq_body .card .card-header a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .faq_body .card .card-body a {
+        font-size: 15px;
+    }
+
+    .faq_body .card .card-body ul li,
+    .faq_body .card .card-body p {
+        font-size: 15px;
+        padding: 0 5px 5px 20px;
+    }
+
+    .faq_body .card .card-body p::after {
+        left: 5px;
+        top: 10px;
+        width: 5px;
+        height: 5px;
+    }
+
+    /* ================= FAQ Part End ================= */
+
+
+    /* ================= Course Detail page Start ================= */
+    .course_details .main_heading {
+        line-height: 50px;
+        padding: 0px 5px;
+        display: block;
+
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .course_details h1,
+    .course_details h2,
+    .course_details h3,
+    .course_details h4,
+    .course_details h5,
+    .course_details h6{
+        padding: 15px 0 0;
+    }
+
+    .course_details p {
+        padding: 5px;
+    }
+
+    .course_details li {
+        padding: 5px 0;
+    }
+
+    .course_details p {
+        line-height: 24px !important;
+        font-size: 16px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .course_details li {
+        line-height: 24px !important;
+        font-size: 16px !important;
+        padding-left: 15px;
+    }
+
+    .course_details li::after {
+        left: 5px;
+        top: 13px;
+    }
+
+    /* ================= Course Detail page End ================= */
+    #doctor_of_the_day {
+        padding: 30px 0;
+    }
+    
+    #doctor_of_the_day
+    .slick-slide.slick-current.slick-active {
+        transform: scale(.95) translate(0px,0px);
+        -webkit-transform: scale(.95) translate(0px,0px);
+        -moz-transform: scale(.95) translate(0px,0px);
+        -ms-transform: scale(.95) translate(0px,0px);
+        -o-transform: scale(.95) translate(0px,0px);
+    }
+
+    /* ================= Dashboard page End ================= */
+    .quick_link_box .img {
+        height: 100px;
+    }
+
+    .quick_link_box .img img {
+        height: 40px;
+    }
+
+    .quick_link_box .img h3 {
+        font-size: 14px;
+    }
+
+    .quick_link_box .img::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .notice_count {
+        top: 32px;
+    }
+
+
+/*=================footer part start=================*/
+    .about1{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    }
+
+    .list3 {
+        font-size: 11px;
+        padding-top: 7px;
+
+    }
+
+    .list li {
+        padding-bottom: 7px;
+        font-size: 12px;
+
+    }
+
+    .list{
+        font-size: 12px;
+
+    }
+
+}
+
+
+/*=================footer part end=================*/
+
+
+@media (min-width: 320px) and (max-width: 574px){
+      .img-1{
+          max-width: 100%;    
+      } 
+      .container-fluid .text-2 {
+        padding-left: 97px;
+        padding-top: 10px;
+      
+    }
+    .btn-flex {
+        display: inline-block;
+    }
+
+    #log_part .forgot-text {
+        font-size: 12px;
+
+    }
+
+}
+@media (min-width: 320px) and (max-width: 574px){
+      .toggle-password{
+          right: -222px !important;
+      }
+}

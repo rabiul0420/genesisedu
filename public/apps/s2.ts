@@ -1,0 +1,49 @@
+[{
+    "id": 25,
+    "slot_id": 2,
+    "type": "Class",
+    "class_or_exam_id": 273,
+    "mentor_id": 4,
+    "parent_id": 0,
+    "priority": 1,
+    "deleted_at": null,
+    "deleted_by": null
+}, {
+    "id": null,
+    "slot_id": 2,
+    "type": "Class",
+    "class_or_exam_id": 0,
+    "mentor_id": 4,
+    "parent_id": 25,
+    "priority": null
+}, {
+    "id": 41,
+    "slot_id": 2,
+    "type": "Class",
+    "class_or_exam_id": 595,
+    "mentor_id": 4,
+    "parent_id": 25,
+    "priority": 2,
+    "deleted_at": null,
+    "deleted_by": null
+}, {
+    "id": 26,
+    "slot_id": 2,
+    "type": "Exam",
+    "class_or_exam_id": 255,
+    "mentor_id": 6,
+    "parent_id": 0,
+    "priority": 3,
+    "deleted_at": null,
+    "deleted_by": null
+}, {
+    "id": 34,
+    "slot_id": 2,
+    "type": "Exam",
+    "class_or_exam_id": 184,
+    "mentor_id": 3,
+    "parent_id": 0,
+    "priority": 4,
+    "deleted_at": null,
+    "deleted_by": null
+}]
